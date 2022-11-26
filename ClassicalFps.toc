@@ -1,0 +1,8 @@
+## Interface: 100002
+## Title: Classical FPS
+
+## SavedVariables: fpsdb
+
+fps.lua
+
+

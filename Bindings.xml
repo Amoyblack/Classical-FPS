@@ -1,0 +1,5 @@
+<Bindings>
+ <Binding name="FPS_TOGGLE" default="CTRL-R" category = "|cffFFFFFFClassical FPS|r">
+   SlashCmdList.FPS("")
+ </Binding>
+</Bindings>
