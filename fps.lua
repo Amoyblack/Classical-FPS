@@ -31,7 +31,7 @@ local function MainDriveOnEvent(self, e, args)
     end
 end
 
-a.drive = CreateFrame("frame")
+a.drive = CreateFrame("Frame", nil, UIParent)
 a.drive:RegisterEvent("ADDON_LOADED");
 a.drive:SetScript("OnEvent", MainDriveOnEvent);
 
@@ -39,7 +39,7 @@ a.drive:SetScript("OnEvent", MainDriveOnEvent);
 
 a.drive.text = a.drive:CreateFontString(nil, "OVERLAY")
 -- a.drive.text:SetFont(STANDARD_TEXT_FONT, 14, "OUTLINE")
-a.drive.text:SetFont(STANDARD_TEXT_FONT, 14, nil)
+a.drive.text:SetFont(STANDARD_TEXT_FONT, 18, nil)
 a.drive.text:SetShadowColor(0,0,0,1)
 a.drive.text:SetShadowOffset(1,-0.5)
 -- a.drive.text:SetPoint("CENTER", 'UIParent', "CENTER", 0, -180)
